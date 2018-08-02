@@ -1,0 +1,232 @@
+.textInput {
+  font-family: PingFang-SC-Medium;
+  font-size: 17px;
+}
+
+.hr {
+  opacity: 0.3
+}
+.user_brief {
+  font-size: 12px;
+}
+
+.template {
+  background-color: white;
+  /* border: 1px solid #cec8c8; */
+  padding-top: 1vh;
+  padding-bottom: 2vh;
+}
+
+
+
+/* header */
+.header {
+  background-color: #46ADFB;
+  box-shadow: 0 10px 17px 0 rgba(23,148,255,0.50);
+  width: 100%;
+  height: 14.3vh;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.time {
+  font-family: PingFang-SC-Semibold;
+  color: #FFFFFF;
+  letter-spacing: 0.5px;
+  font-size: 9px;
+  -webkit-transform: scale(calc(9 / 12));
+  -moz-transform: scale(calc(9 / 12));
+  -ms-transform: scale(calc(9 / 12));
+  -o-transform: scale(calc(9 / 12));
+  transform: scale(calc(9 / 12));
+}
+.fromTime {
+  position: absolute;
+  left: 4vw;
+  top: 2.5vh;
+  width: 20vw;
+  text-align: left;
+  line-height: 1.5vh;
+}
+.toTime {
+  position: absolute;
+  left:68vw;
+  top: 2.5vh;
+  width: 20vw;
+  text-align: right;
+  line-height: 1.5vh;
+}
+
+.air {
+  font-family: PingFang-SC-Semibold;
+  color: #FFFFFF;
+  /* letter-spacing: 2.65px; */
+  font-size: 9px;
+  -webkit-transform: scale(calc(9 / 12));
+  -moz-transform: scale(calc(9 / 12));
+  -ms-transform: scale(calc(9 / 12));
+  -o-transform: scale(calc(9 / 12));
+  transform: scale(calc(9 / 12));
+}
+.fromAir1 {
+  position: absolute;
+  left: 24vw;
+  top: 1.7vh;
+  line-height: 1.4vh
+  /* width: 16vw; */
+}
+.fromAir2 {
+  position: absolute;
+  left: 52vw;
+  top: 1.7vh;
+  line-height: 1.4vh
+  /* width: 16vw; */
+}
+.city {
+  font-family: PingFang-SC-Semibold;
+  color: #FFFFFF;
+  letter-spacing: 2.19px;
+  font-size: 16px;
+}
+.cityEn {
+    font-family: PingFang-SC-Semibold;
+    color: #FFFFFF;
+    letter-spacing: 2.91px;
+    font-size: 12px;
+}
+.fromCity {
+  position: absolute;
+  left: 4vw;
+  top: 6.8vh;
+  width: 20vw;
+  text-align: left;
+}
+.fromCityEn {
+  position: absolute;
+  left: 4vw;
+  top: 9vh;
+  width:20vw;
+  text-align: left;
+}
+
+.firstFlightImg {
+  position: absolute;
+  left: 24vw;
+  top: 6.3vh;
+  width:16vw;
+}
+.firstFlightImg img {
+  width:9vw
+}
+.secFlightImg{
+  position: absolute;
+  left: 51vw;
+  top: 6.3vh;
+  width:16vw;
+}
+
+.secFlightImg img {
+  width:9vw
+}
+
+.toCity {
+  position: absolute;
+  left: 68vw;
+  top: 6.8vh;
+  width: 20vw;
+  text-align: right;
+}
+.toCityEn {
+  position: absolute;
+  left: 68vw;
+  top: 9vh;
+  width:20vw;
+  text-align: right;
+}
+.startToMidImg{
+  position: absolute;
+  left: 15vw;
+  top: 6.4vh;
+  text-align: left;
+  /* width:20vw; */
+}
+
+.startToMidImg img {
+  width:50%;
+}
+
+.middleCityImg {
+  position: absolute;
+  left: 37vw;
+  top: 6.4vh;
+  width:16vw;
+  /* text-align: left; */
+}
+.middleCityImg img {
+  width: 50%;
+}
+.middleCity {
+  position: absolute;
+  left: 37vw;
+  top: 6vh;
+  width:16vw;
+  line-height: 2vh;
+}
+.midToEndImg {
+  position: absolute;
+  left: 66vw;
+  top: 6.4vh;
+  text-align: left;
+  /* width:20vw; */
+}
+.midToEndImg img {
+  width: 50%;
+}
+.otherInfo {
+  position: absolute;
+  left: 0vw;
+  top: 10.9vh;
+  width: 100%;
+  text-align: center;
+}
+
+/* image */
+.templateImg {
+  width: 100%;
+}
+
+
+/* footer */
+.footer {
+  width: 100%;
+  height: 6.5vh;
+  position: relative;
+}
+.ecode {
+  position: absolute;
+  left: 80vw;
+  top: 0;
+  width: 11vw;
+}
+.ecode img {
+  width: 100%;
+}
+.logoText {
+  position: absolute;
+  left: 38vw;
+  top: 1vw;
+  width: 40vw;
+  text-align: right;
+  font-size: 14px;
+  font-family: PingFang-SC-Medium;
+  color: #767676;
+}
+.logo {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 28vw;
+}
+.logo img{
+  width: 100%;
+}
