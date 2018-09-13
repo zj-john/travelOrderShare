@@ -1,0 +1,28 @@
+#Order .am-grid .am-flexbox .am-flexbox-item .am-grid-item-content {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    padding: 15px 0;
+}
+.am-action-sheet-title {
+
+}
+
+#template_flight .am-list-item, #template_hotel .am-list-item, #template_travel .am-list-item {
+  padding-left: 0
+}
+
+#template_flight .am-list-body::before, #template_hotel .am-list-body::before, #template_travel .am-list-body::before {
+  content: "";
+  height: 0
+}
+
+#template_flight .am-list-body::after, #template_hotel .am-list-body::after, #template_travel .am-list-body::after {
+  content: "";
+  height: 0
+}
+/* #textInput_flight {
+  font-family: PingFang-SC-Medium;
+  font-size: 22px;
+  color: #575757;
+} */
