@@ -1,5 +1,7 @@
 # 订单分享Demo
 
+地址：https://zj-john.github.io/travelOrderShare/build/index.html
+
 ## 描述
 用户完成下单后，从订单页面可以直接把本次订单分享出去。  
 不同的订单使用不同的模板，编辑完成后可以直接分享到朋友圈。
